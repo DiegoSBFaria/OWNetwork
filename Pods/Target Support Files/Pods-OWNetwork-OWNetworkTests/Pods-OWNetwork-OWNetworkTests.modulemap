@@ -1,0 +1,6 @@
+framework module Pods_OWNetwork_OWNetworkTests {
+  umbrella header "Pods-OWNetwork-OWNetworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

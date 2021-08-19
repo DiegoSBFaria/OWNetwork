@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFBBC42B83D1D329B87AADB0211817A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		24F75DD698E6426F8268768FE958E419 /* Pods-OWNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB84C55B4129715BC29BBA13BE0122F2 /* Pods-OWNetwork-dummy.m */; };
+		47B39A1410E99DD24210CE2F322EFBD2 /* Pods-OWNetwork-OWNetworkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E9445A003447FEB34A75FEE6BAD3D3 /* Pods-OWNetwork-OWNetworkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A7C6B6DF1C093F30287FD506F21A71F /* Pods-OWNetwork-OWNetworkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 839283EB6568335241DA8F07926205EC /* Pods-OWNetwork-OWNetworkTests-dummy.m */; };
+		776DABA82A1859C6F5DCE2161B0CA7B9 /* Pods-OWNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6AD5367316FF9479362B0CE39CB70A /* Pods-OWNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ADE1BD9F0A23C92B45B28BBB517E0B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D040C2E00DDE3099CDEF85475D671A5 /* Pods-OWNetwork-OWNetworkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OWNetwork-OWNetworkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		207DDE0CC845AE431E77B38D7ACBF930 /* Pods_OWNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OWNetwork.framework; path = "Pods-OWNetwork.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6AD5367316FF9479362B0CE39CB70A /* Pods-OWNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OWNetwork-umbrella.h"; sourceTree = "<group>"; };
+		459B1230DC5BDAC250FAED580A10FCE5 /* Pods_OWNetwork_OWNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OWNetwork_OWNetworkTests.framework; path = "Pods-OWNetwork-OWNetworkTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503FDA21CFD8717F898681C87A6048E7 /* Pods-OWNetwork-OWNetworkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OWNetwork-OWNetworkTests.modulemap"; sourceTree = "<group>"; };
+		6729643818BE8676677D7436AB392467 /* Pods-OWNetwork-OWNetworkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OWNetwork-OWNetworkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77C68E1C52E41AF003EAAFF9BBC6C5ED /* Pods-OWNetwork-OWNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OWNetwork-OWNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		839283EB6568335241DA8F07926205EC /* Pods-OWNetwork-OWNetworkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OWNetwork-OWNetworkTests-dummy.m"; sourceTree = "<group>"; };
+		94E9445A003447FEB34A75FEE6BAD3D3 /* Pods-OWNetwork-OWNetworkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OWNetwork-OWNetworkTests-umbrella.h"; sourceTree = "<group>"; };
+		96929F3A2F25F78237F4C13C8E9FBED2 /* Pods-OWNetwork-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OWNetwork-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98B4D71833E101D83AE21096595E614E /* Pods-OWNetwork-OWNetworkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OWNetwork-OWNetworkTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C492A90BB4581A46F3985DCC81A211CB /* Pods-OWNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OWNetwork-Info.plist"; sourceTree = "<group>"; };
+		E4CCA28C2181824204BFFAFD4D6A0A22 /* Pods-OWNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OWNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		E9D362E90ED4EAF5DEB018F3A1878A8C /* Pods-OWNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OWNetwork.modulemap"; sourceTree = "<group>"; };
+		EC22BF246209CB5A3EBDF590B3B922DA /* Pods-OWNetwork-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OWNetwork-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF643CB0401BA3E5A04D397DCAF89788 /* Pods-OWNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OWNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		F53179B5BD400A25DF52C60ED3FB3567 /* Pods-OWNetwork-OWNetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OWNetwork-OWNetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB84C55B4129715BC29BBA13BE0122F2 /* Pods-OWNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OWNetwork-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65666D9DC6536775B87447693D26590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADE1BD9F0A23C92B45B28BBB517E0B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB673AA0A214D1D4F649E43F60703425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFBBC42B83D1D329B87AADB0211817A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161FD29CBEB5DD090F98D2D393EFA5E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C724E2BF2CFD61FD3A3ECDDE48C75C0D /* Pods-OWNetwork */,
+				CB72FEE2E966873BE243380AFC14C753 /* Pods-OWNetwork-OWNetworkTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29E14D05C7E6EDF0B4558631772222E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207DDE0CC845AE431E77B38D7ACBF930 /* Pods_OWNetwork.framework */,
+				459B1230DC5BDAC250FAED580A10FCE5 /* Pods_OWNetwork_OWNetworkTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C724E2BF2CFD61FD3A3ECDDE48C75C0D /* Pods-OWNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				E9D362E90ED4EAF5DEB018F3A1878A8C /* Pods-OWNetwork.modulemap */,
+				96929F3A2F25F78237F4C13C8E9FBED2 /* Pods-OWNetwork-acknowledgements.markdown */,
+				EC22BF246209CB5A3EBDF590B3B922DA /* Pods-OWNetwork-acknowledgements.plist */,
+				FB84C55B4129715BC29BBA13BE0122F2 /* Pods-OWNetwork-dummy.m */,
+				C492A90BB4581A46F3985DCC81A211CB /* Pods-OWNetwork-Info.plist */,
+				3B6AD5367316FF9479362B0CE39CB70A /* Pods-OWNetwork-umbrella.h */,
+				EF643CB0401BA3E5A04D397DCAF89788 /* Pods-OWNetwork.debug.xcconfig */,
+				E4CCA28C2181824204BFFAFD4D6A0A22 /* Pods-OWNetwork.release.xcconfig */,
+			);
+			name = "Pods-OWNetwork";
+			path = "Target Support Files/Pods-OWNetwork";
+			sourceTree = "<group>";
+		};
+		CB72FEE2E966873BE243380AFC14C753 /* Pods-OWNetwork-OWNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				503FDA21CFD8717F898681C87A6048E7 /* Pods-OWNetwork-OWNetworkTests.modulemap */,
+				0D040C2E00DDE3099CDEF85475D671A5 /* Pods-OWNetwork-OWNetworkTests-acknowledgements.markdown */,
+				6729643818BE8676677D7436AB392467 /* Pods-OWNetwork-OWNetworkTests-acknowledgements.plist */,
+				839283EB6568335241DA8F07926205EC /* Pods-OWNetwork-OWNetworkTests-dummy.m */,
+				98B4D71833E101D83AE21096595E614E /* Pods-OWNetwork-OWNetworkTests-Info.plist */,
+				94E9445A003447FEB34A75FEE6BAD3D3 /* Pods-OWNetwork-OWNetworkTests-umbrella.h */,
+				F53179B5BD400A25DF52C60ED3FB3567 /* Pods-OWNetwork-OWNetworkTests.debug.xcconfig */,
+				77C68E1C52E41AF003EAAFF9BBC6C5ED /* Pods-OWNetwork-OWNetworkTests.release.xcconfig */,
+			);
+			name = "Pods-OWNetwork-OWNetworkTests";
+			path = "Target Support Files/Pods-OWNetwork-OWNetworkTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				29E14D05C7E6EDF0B4558631772222E2 /* Products */,
+				161FD29CBEB5DD090F98D2D393EFA5E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C7D0D0A8BB17282E5CC97D366190FD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776DABA82A1859C6F5DCE2161B0CA7B9 /* Pods-OWNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5174BCB8C0DC65DC1D0B2FD11F2D489 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B39A1410E99DD24210CE2F322EFBD2 /* Pods-OWNetwork-OWNetworkTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BD8AC31939710F800D9098C4E0D5A41 /* Pods-OWNetwork-OWNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C243E9EA7B2E21F94599DBB51121D6DC /* Build configuration list for PBXNativeTarget "Pods-OWNetwork-OWNetworkTests" */;
+			buildPhases = (
+				C5174BCB8C0DC65DC1D0B2FD11F2D489 /* Headers */,
+				1E347A63A42EA474F9BCA5204EC2BB46 /* Sources */,
+				C65666D9DC6536775B87447693D26590 /* Frameworks */,
+				DC0B98209362C98F9015B1BAD9283160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OWNetwork-OWNetworkTests";
+			productName = "Pods-OWNetwork-OWNetworkTests";
+			productReference = 459B1230DC5BDAC250FAED580A10FCE5 /* Pods_OWNetwork_OWNetworkTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75484C2AAF8691C8D42A132778CE64A7 /* Pods-OWNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C6F96D47CEE0CAC0A31B9CDA077107 /* Build configuration list for PBXNativeTarget "Pods-OWNetwork" */;
+			buildPhases = (
+				3C7D0D0A8BB17282E5CC97D366190FD1 /* Headers */,
+				AFFE33D2D1123E0EB635FC94A0F37EBD /* Sources */,
+				EB673AA0A214D1D4F649E43F60703425 /* Frameworks */,
+				E1B63A3B7E287F7F601B9DF8F4D8C1ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OWNetwork";
+			productName = "Pods-OWNetwork";
+			productReference = 207DDE0CC845AE431E77B38D7ACBF930 /* Pods_OWNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 29E14D05C7E6EDF0B4558631772222E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75484C2AAF8691C8D42A132778CE64A7 /* Pods-OWNetwork */,
+				3BD8AC31939710F800D9098C4E0D5A41 /* Pods-OWNetwork-OWNetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0B98209362C98F9015B1BAD9283160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B63A3B7E287F7F601B9DF8F4D8C1ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E347A63A42EA474F9BCA5204EC2BB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7C6B6DF1C093F30287FD506F21A71F /* Pods-OWNetwork-OWNetworkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFE33D2D1123E0EB635FC94A0F37EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F75DD698E6426F8268768FE958E419 /* Pods-OWNetwork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F8945708A7741448DC50419400BC50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C68E1C52E41AF003EAAFF9BBC6C5ED /* Pods-OWNetwork-OWNetworkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OWNetwork-OWNetworkTests/Pods-OWNetwork-OWNetworkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OWNetwork-OWNetworkTests/Pods-OWNetwork-OWNetworkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		788911235736DFF8C92BA2CDA640F036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CCA28C2181824204BFFAFD4D6A0A22 /* Pods-OWNetwork.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OWNetwork/Pods-OWNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OWNetwork/Pods-OWNetwork.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ABDFCFAC595939782EF80DD210A6667B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF643CB0401BA3E5A04D397DCAF89788 /* Pods-OWNetwork.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OWNetwork/Pods-OWNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OWNetwork/Pods-OWNetwork.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA56EE2748D035EBC653CB67AE45FE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53179B5BD400A25DF52C60ED3FB3567 /* Pods-OWNetwork-OWNetworkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OWNetwork-OWNetworkTests/Pods-OWNetwork-OWNetworkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OWNetwork-OWNetworkTests/Pods-OWNetwork-OWNetworkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C6F96D47CEE0CAC0A31B9CDA077107 /* Build configuration list for PBXNativeTarget "Pods-OWNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDFCFAC595939782EF80DD210A6667B /* Debug */,
+				788911235736DFF8C92BA2CDA640F036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C243E9EA7B2E21F94599DBB51121D6DC /* Build configuration list for PBXNativeTarget "Pods-OWNetwork-OWNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA56EE2748D035EBC653CB67AE45FE65 /* Debug */,
+				2F8945708A7741448DC50419400BC50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
