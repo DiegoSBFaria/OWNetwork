@@ -15,7 +15,7 @@ class OWNMockRequester: OWNRequester {
             let response = OWNetworkResponse(data: info, error: nil, statusCode: 200)
             completion(response)
         } catch {
-            let response = OWNetworkResponse(data: nil, error: error, statusCode: 200)
+            let response = OWNetworkResponse(data: nil, error: error, statusCode: 500)
             completion(response)
         }
     }

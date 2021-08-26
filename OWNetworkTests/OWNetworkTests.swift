@@ -9,25 +9,28 @@ import XCTest
 @testable import OWNetwork
 
 class OWNetworkTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    let network = OWNetwork()
+    
+    func testRequest() {
+        network.requestWith(url: "lista", method: "GET", parameters: nil, header: nil) { response in
+            XCTAssertNotNil(response)
         }
     }
-
+    
+    func testRequestReturnData() {
+        network.requestWith(url: "lista", method: "GET", parameters: nil, header: nil) { response in
+            XCTAssertEqual(response.statusCode, 200)
+            XCTAssertNotNil(response.data)
+            XCTAssertNil(response.error)
+        }
+    }
+    
+    func testRequestReturnError() {
+        network.requestWith(url: "listaNull", method: "GET", parameters: nil, header: nil) { response in
+            XCTAssertNotEqual(response.statusCode, 200)
+            XCTAssertNotNil(response.error)
+            XCTAssertNil(response.data)
+        }
+    }
 }
