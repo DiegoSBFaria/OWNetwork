@@ -1,0 +1,11 @@
+framework module OWNetwork {
+  umbrella header "OWNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module OWNetwork.Swift {
+    header "OWNetwork-Swift.h"
+    requires objc
+}

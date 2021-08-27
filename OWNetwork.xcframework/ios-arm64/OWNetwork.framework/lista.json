@@ -1,0 +1,67 @@
+{
+  "programacao": [
+    {
+      "id": "18",
+      "titulo": "Devocional da Vinha",
+      "descricao": "Devocional da Vinha com Pr. C\u00e9sar Gianfelice de ter\u00e7a \u00e0 sexta-feira \u00e0s 07h00 da manh\u00e3.",
+      "hora_inicio": "07:00",
+      "hora_fim": "08:00",
+      "dias_semana": "3|4|5|6",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1500588668-98916234-41e9-455f-89db-77101b079833.jpg"
+    },
+    {
+      "id": "17",
+      "titulo": "Usina de Empreendedores",
+      "descricao": "Apresentadores: Vitor Manuel e Pr. Isa\u00edas Sardinha.\r\n\r\nDias da Semana: Ter\u00e7a feira.\r\nHor\u00e1rio: 22h - com reprise na 5\u00aa feira \u00e0s 10h30 e S\u00e1bado \u00e0s 14h30.\r\nDura\u00e7\u00e3o do Programa: 1 hora.\r\n\r\nConte\u00fado: Um programa feito para voc\u00ea que quer empreender. O Pr. Isa\u00edas Sardinha aborda assuntos sobre: Como abrir uma empresa e como ser um empreendedor de sucesso.",
+      "hora_inicio": "22:00",
+      "hora_fim": "23:00",
+      "dias_semana": "3",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1500587301-Usina-de-Empreendedores---Copia.jpg"
+    },
+    {
+      "id": "8",
+      "titulo": "Blitz",
+      "descricao": "Apresentadores: Diogo Rosa, Vit\u00f3ria Gianfelice e Nicolly Morais.\r\n\r\nDias da Semana: Sexta feira.\r\nHor\u00e1rio: 20h - com reprise na 5\u00ba feira \u00e0s 22h00 e 3\u00ba feira \u00e0s 10h30\r\nDura\u00e7\u00e3o do programa: 1 hora\r\n\r\nConte\u00fado: Programa moderno, interativo que traz alegria e informa\u00e7\u00e3o.",
+      "hora_inicio": "20:00",
+      "hora_fim": "21:00",
+      "dias_semana": "6",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1497294340-Blitz---Copia.jpg"
+    },
+    {
+      "id": "7",
+      "titulo": "VN Night Show",
+      "descricao": "Apresentador: Vitor Augusto\r\n\r\nDias da Semana: Segunda feira.\r\nHor\u00e1rio: 21h - com reprise na 4\u00ba feira \u00e0s 14h30 e 6\u00aa feira \u00e0s 10h30.\r\nDura\u00e7\u00e3o do Programa: 1 hora\r\n\r\nConte\u00fado: Um programa de entrevistas que recebe semanalmente personalidades no meio crist\u00e3.",
+      "hora_inicio": "21:00",
+      "hora_fim": "22:00",
+      "dias_semana": "2",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1497294423-WhatsApp-Image-2017-05-19-at-18.28.39---Copia.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Casais Radicais",
+      "descricao": "Apresentadores: Pr. Calixto Rassi e os demais supervisores da Videira SP.\r\n\r\nDias da Semana: Sexta feira.\r\nHor\u00e1rio: 22h - com reprise na 3\u00aa feira \u00e0s 14h30 e 4\u00aa feira \u00e0s 10h30.\r\nDura\u00e7\u00e3o do Programa: 1 hora\r\n\r\nConte\u00fado: Um programa feito para os casais que querem ter um casamento alicer\u00e7ado na rocha da Palavra Deus.",
+      "hora_inicio": "22:00",
+      "hora_fim": "23:00",
+      "dias_semana": "6",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1497294373-CASAIAS-RADICAIS---Copia.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "Caf\u00e9 da Vinha",
+      "descricao": "Apresentadora: Simone TaVit.\r\n\r\nDias da Semana: Ter\u00e7a \u2013 feira\r\nHor\u00e1rio: 20h00 - com reprise no s\u00e1bado \u00e0s 10h30 e domingo \u00e0s 14h30.\r\nDura\u00e7\u00e3o do programa: 1 hora.\r\n\r\nConte\u00fado: Um programa voltado especialmente para mulheres com entrevistas, curiosidades e tudo o que voc\u00ea gostaria de saber!",
+      "hora_inicio": "20:00",
+      "hora_fim": "21:00",
+      "dias_semana": "3",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1497294356-Cafe-da-Vinha---Copia.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Companhia da Palavra",
+      "descricao": "Dias da Semana: Domingo a domingo\t\r\nHor\u00e1rio: 7h00, 12h00, 18h00 e 00h00\t\r\n\r\nConte\u00fado: Comece bem o seu dia ouvindo a palavra de Deus na Companhia da Palavra. \u00c9 transmitido quatro vezes ao dia com Ministra\u00e7\u00f5es dos pastores supervisores da Videira S\u00e3o Paulo.",
+      "hora_inicio": "07:00",
+      "hora_fim": "00:00",
+      "dias_semana": "1",
+      "imagem": "http:\/\/videirasp.overwater.com.br\/public\/uploads\/programacao\/1497409146-Companhia-da-Palavra.jpg"
+    }
+  ]
+}
