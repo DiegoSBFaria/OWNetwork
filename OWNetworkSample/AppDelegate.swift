@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  OWNetworkTest
+//  OWNetworkSample
 //
 //  Created by Diego Faria on 16/07/21.
 //

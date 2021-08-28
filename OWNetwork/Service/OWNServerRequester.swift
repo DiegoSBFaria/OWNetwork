@@ -28,14 +28,16 @@ class OWNServerRequester: OWNRequester {
             }
         }
         URLSession.shared.dataTask(with: request) { data, response, error in
-            guard let responseHttp = response as? HTTPURLResponse else {
-                let response = OWNetworkResponse(data: nil, error: error, statusCode: -200)
-                completion(response)
-                return
+            DispatchQueue.main.async {
+                guard let responseHttp = response as? HTTPURLResponse else {
+                    let response = OWNetworkResponse(data: nil, error: error, statusCode: -200)
+                    completion(response)
+                    return
+                }
+                
+                let networkResponse = OWNetworkResponse(data: data, error: error, statusCode: responseHttp.statusCode)
+                completion(networkResponse)
             }
-            
-            let networkResponse = OWNetworkResponse(data: data, error: error, statusCode: responseHttp.statusCode)
-            completion(networkResponse)
         }.resume()
     }
 

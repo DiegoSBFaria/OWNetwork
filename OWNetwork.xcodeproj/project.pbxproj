@@ -20,6 +20,7 @@
 		7B3AD3CE26D8146900690091 /* lista.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B3AD3CD26D8146900690091 /* lista.json */; };
 		7B3AD3CF26D815E000690091 /* lista.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B3AD3CD26D8146900690091 /* lista.json */; };
 		7B3AD3D126D8172E00690091 /* OWNServerRequesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AD3D026D8172E00690091 /* OWNServerRequesterTests.swift */; };
+		7B3AD3D326DA7F1E00690091 /* OWNResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AD3D226DA7F1E00690091 /* OWNResponseViewController.swift */; };
 		7BA4302826A20B9C006725D8 /* OWNBundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA4302726A20B9C006725D8 /* OWNBundle+Extension.swift */; };
 		7BA4302A26A20CB0006725D8 /* OWNBaseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA4302926A20CB0006725D8 /* OWNBaseStruct.swift */; };
 		7BA4302C26A20E27006725D8 /* OWNErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA4302B26A20E27006725D8 /* OWNErrors.swift */; };
@@ -63,12 +64,13 @@
 		7B2E048F25B5E36A00732257 /* OWNLocalizationGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWNLocalizationGeneral.swift; sourceTree = "<group>"; };
 		7B3AD3CD26D8146900690091 /* lista.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lista.json; sourceTree = "<group>"; };
 		7B3AD3D026D8172E00690091 /* OWNServerRequesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWNServerRequesterTests.swift; sourceTree = "<group>"; };
+		7B3AD3D226DA7F1E00690091 /* OWNResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWNResponseViewController.swift; sourceTree = "<group>"; };
 		7BA4302726A20B9C006725D8 /* OWNBundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OWNBundle+Extension.swift"; sourceTree = "<group>"; };
 		7BA4302926A20CB0006725D8 /* OWNBaseStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OWNBaseStruct.swift; path = ../../../../../../OWNBaseStruct.swift; sourceTree = "<group>"; };
 		7BA4302B26A20E27006725D8 /* OWNErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWNErrors.swift; sourceTree = "<group>"; };
 		7BA4302D26A21075006725D8 /* OWNServerRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWNServerRequester.swift; sourceTree = "<group>"; };
 		7BA4303026A21697006725D8 /* OWNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = OWNetwork.podspec; sourceTree = SOURCE_ROOT; };
-		7BA4303626A21A1D006725D8 /* OWNetworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWNetworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA4303626A21A1D006725D8 /* OWNetworkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWNetworkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA4303826A21A1D006725D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA4303A26A21A1D006725D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7BA4303C26A21A1D006725D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +128,7 @@
 			children = (
 				7B2E045F25B5D90D00732257 /* OWNetwork */,
 				7B2E046A25B5D90E00732257 /* OWNetworkTests */,
-				7BA4303726A21A1D006725D8 /* OWNetworkTest */,
+				7BA4303726A21A1D006725D8 /* OWNetworkSample */,
 				7B2E045E25B5D90D00732257 /* Products */,
 				105E78A48C74778257240491 /* Pods */,
 				B7983BDCCE98AA033C5650ED /* Frameworks */,
@@ -138,7 +140,7 @@
 			children = (
 				7B2E045D25B5D90D00732257 /* OWNetwork.framework */,
 				7B2E046625B5D90E00732257 /* OWNetworkTests.xctest */,
-				7BA4303626A21A1D006725D8 /* OWNetworkTest.app */,
+				7BA4303626A21A1D006725D8 /* OWNetworkSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,18 +209,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		7BA4303726A21A1D006725D8 /* OWNetworkTest */ = {
+		7BA4303726A21A1D006725D8 /* OWNetworkSample */ = {
 			isa = PBXGroup;
 			children = (
 				7BA4303826A21A1D006725D8 /* AppDelegate.swift */,
 				7BA4303A26A21A1D006725D8 /* SceneDelegate.swift */,
+				7B3AD3D226DA7F1E00690091 /* OWNResponseViewController.swift */,
 				7BA4303C26A21A1D006725D8 /* ViewController.swift */,
 				7BA4303E26A21A1D006725D8 /* Main.storyboard */,
 				7BA4304126A21A22006725D8 /* Assets.xcassets */,
 				7BA4304326A21A22006725D8 /* LaunchScreen.storyboard */,
 				7BA4304626A21A22006725D8 /* Info.plist */,
 			);
-			path = OWNetworkTest;
+			path = OWNetworkSample;
 			sourceTree = "<group>";
 		};
 		B7983BDCCE98AA033C5650ED /* Frameworks */ = {
@@ -282,9 +285,9 @@
 			productReference = 7B2E046625B5D90E00732257 /* OWNetworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7BA4303526A21A1D006725D8 /* OWNetworkTest */ = {
+		7BA4303526A21A1D006725D8 /* OWNetworkSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BA4306326A21A23006725D8 /* Build configuration list for PBXNativeTarget "OWNetworkTest" */;
+			buildConfigurationList = 7BA4306326A21A23006725D8 /* Build configuration list for PBXNativeTarget "OWNetworkSample" */;
 			buildPhases = (
 				7BA4303226A21A1D006725D8 /* Sources */,
 				7BA4303326A21A1D006725D8 /* Frameworks */,
@@ -294,9 +297,9 @@
 			);
 			dependencies = (
 			);
-			name = OWNetworkTest;
+			name = OWNetworkSample;
 			productName = OWNetworkTest;
-			productReference = 7BA4303626A21A1D006725D8 /* OWNetworkTest.app */;
+			productReference = 7BA4303626A21A1D006725D8 /* OWNetworkSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -336,7 +339,7 @@
 			targets = (
 				7B2E045C25B5D90D00732257 /* OWNetwork */,
 				7B2E046525B5D90E00732257 /* OWNetworkTests */,
-				7BA4303526A21A1D006725D8 /* OWNetworkTest */,
+				7BA4303526A21A1D006725D8 /* OWNetworkSample */,
 			);
 		};
 /* End PBXProject section */
@@ -450,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3AD3D326DA7F1E00690091 /* OWNResponseViewController.swift in Sources */,
 				7BA4303D26A21A1D006725D8 /* ViewController.swift in Sources */,
 				7BA4303926A21A1D006725D8 /* AppDelegate.swift in Sources */,
 				7BA4303B26A21A1D006725D8 /* SceneDelegate.swift in Sources */,
@@ -710,13 +714,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJLYC9NT62;
-				INFOPLIST_FILE = OWNetworkTest/Info.plist;
+				INFOPLIST_FILE = OWNetworkSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.overwater.OWNetworkTest;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.overwater.OWNetworkSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -730,13 +734,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJLYC9NT62;
-				INFOPLIST_FILE = OWNetworkTest/Info.plist;
+				INFOPLIST_FILE = OWNetworkSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.overwater.OWNetworkTest;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.overwater.OWNetworkSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -773,7 +777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BA4306326A21A23006725D8 /* Build configuration list for PBXNativeTarget "OWNetworkTest" */ = {
+		7BA4306326A21A23006725D8 /* Build configuration list for PBXNativeTarget "OWNetworkSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7BA4305D26A21A22006725D8 /* Debug */,
