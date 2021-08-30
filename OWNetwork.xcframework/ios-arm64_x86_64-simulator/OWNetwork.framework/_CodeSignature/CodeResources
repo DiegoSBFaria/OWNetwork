@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WShkj+zvOYrEskBQ6CGGrz8k43k=
+		kMC0yAGsxmwtUPqZmw2ZZkDwKZw=
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		WShkj+zvOYrEskBQ6CGGrz8k43k=
+		kMC0yAGsxmwtUPqZmw2ZZkDwKZw=
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5iDNHKKrA7rMMG/ss4PsA6zcMCc=
+		hlO7QUhFTA3TFh/MlUMWP/3ifTk=
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/OWNetwork.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		5iDNHKKrA7rMMG/ss4PsA6zcMCc=
+		hlO7QUhFTA3TFh/MlUMWP/3ifTk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sr+RKpTRTSxqN//glBgpwyGravqwy8X7atWUKMXXngg=
+			zkdW5TdosIzrQBBSYe5eXt1h8euVVOiiqYe6DiDxW34=
 			</data>
 		</dict>
 		<key>Modules/OWNetwork.swiftmodule/arm64.swiftdoc</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sr+RKpTRTSxqN//glBgpwyGravqwy8X7atWUKMXXngg=
+			zkdW5TdosIzrQBBSYe5eXt1h8euVVOiiqYe6DiDxW34=
 			</data>
 		</dict>
 		<key>Modules/OWNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CfLVgaMlj9H3C3mSZMq5nXAaJE1hWlf9ut+E5nGGpY8=
+			OxOWbGH5K238Q9FdoOpoxzyUnIQh0OmAaSsTZVQ5Isc=
 			</data>
 		</dict>
 		<key>Modules/OWNetwork.swiftmodule/x86_64.swiftdoc</key>
@@ -185,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CfLVgaMlj9H3C3mSZMq5nXAaJE1hWlf9ut+E5nGGpY8=
+			OxOWbGH5K238Q9FdoOpoxzyUnIQh0OmAaSsTZVQ5Isc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
